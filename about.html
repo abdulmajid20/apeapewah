@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Majid Personal Website</title>
+
+    <script type="text/Javascript">
+        function buatGetaran(pola) {
+                var getaran = window.navigator.vibrate(pola);
+            console.log(getaran);
+        }
+    </script>
+<head>
+
+<body>
+    <nav>
+        <a href="index.html" onclick="buatGetaran(500)">Home</a> |
+        <a href="contact.html" onclick="buatGetaran(500)">contact</a> |
+        <a href="about.html" onclick="buatGetaran(500)">About Me</a> |
+        <a href="CV-Abdul_Majid.pdf" onclick="buatGetaran(500)">Download CV</a>
+    </nav>
+
+    <hr />
+
+    <article>
+        <h1>About Me</h1>
+        <p>
+            Hi, Saya adalah web developer yang berdomisli di Mataram.
+            saat ini sedang belajar HTML di petani kode
+        </p>
+        <p>
+            Saya memang masih baru dalam web development, karena itu
+            saya tidak akan pernah berhenti belajar.
+        </p>
+        <p>
+            saya ingin menguasai bahasa HTML, CSS, dan Javascript.
+            Simak video lengkap tentang saya.
+        </p>
+        <p>
+            <video controls width="500" style="border-radius: 10%;" >
+                <source src="video/video-about.webm" type="video/webm"/>
+            </video>
+        <p>
+    </article>
+
+    <hr/>
+    <footer style="text-align: center;">
+        <p>copyright &copy; 2021 Abdul Majid.</p>
+    </footer>
+</body>
+</html>
